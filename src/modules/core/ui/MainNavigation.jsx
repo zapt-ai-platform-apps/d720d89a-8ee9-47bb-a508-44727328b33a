@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { useAuthContext } from '@/modules/auth/components/AuthProvider';
+import { useAuthContext } from '@/modules/auth/internal/AuthContext';
 
 export function MainNavigation() {
   const { user, signOut } = useAuthContext();

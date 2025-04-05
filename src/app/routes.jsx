@@ -1,12 +1,12 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { LoginPage } from '@/modules/auth/components/LoginPage';
-import { ProtectedRoute } from '@/modules/auth/components/ProtectedRoute';
+import { LoginPage } from '@/modules/auth/ui/LoginPage';
+import { ProtectedRoute } from '@/modules/auth/ui/ProtectedRoute';
 import { Dashboard } from '@/app/pages/Dashboard';
-import { WebsiteBuilder } from '@/modules/builder/components/WebsiteBuilder';
-import { DomainManager } from '@/modules/domain/components/DomainManager';
-import { SocialIntegration } from '@/modules/social/components/SocialIntegration';
-import { DeploymentCenter } from '@/modules/deployment/components/DeploymentCenter';
+import { WebsiteBuilder } from '@/modules/builder/ui/WebsiteBuilder';
+import { DomainManager } from '@/modules/domain/ui/DomainManager';
+import { SocialIntegration } from '@/modules/social/ui/SocialIntegration';
+import { DeploymentCenter } from '@/modules/deployment/ui/DeploymentCenter';
 import { LandingPage } from '@/app/pages/LandingPage';
 import { NotFound } from '@/app/pages/NotFound';
 
